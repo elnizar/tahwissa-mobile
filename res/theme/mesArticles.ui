@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="mesArticles" cloudDestinationProperty="mesArticles" uiid="BgAchats" >
+  <component type="Container" name="ItemContainer" cloudDestinationProperty="ItemContainer" uiid="MyArticleContainer" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="Container" name="LeftContainer" cloudDestinationProperty="LeftContainer" uiid="ImageAchatContainer" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="1" >
+      <component type="ImageViewer" name="ImageProd" cloudDestinationProperty="ImageViewer" >
+        <custom name="image" type="com.codename1.ui.Image" value="bag.png" />
+      </component>
+    </component>
+    <component type="Container" name="RightContainer" cloudDestinationProperty="Container" uiid="MyColdGreenTab" focusable="false" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Container" name="Container" cloudDestinationProperty="Container" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="3" flowLayoutValign="0" >
+        <component type="Button" name="Delete" cloudDestinationProperty="Delete" uiid="WhiteButton" text="" icon="cancel (4).png" >
+        </component>
+      </component>
+      <component type="Container" name="DetailContainer" cloudDestinationProperty="DetailContainer" >
+        <component type="Container" name="LeftDetailsContainer" cloudDestinationProperty="LeftDetailsContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+          <component type="Label" name="Libelle" cloudDestinationProperty="Label" uiid="MyLabel1" text="Label" icon="shopping-bag (1).png" >
+          </component>
+          <component type="Label" name="Prix" cloudDestinationProperty="Label1" uiid="MyLabel1" text="Label" icon="change.png" >
+          </component>
+          <component type="Label" name="Etat" cloudDestinationProperty="Label2" uiid="MyLabel1" text="Label" icon="approve.png" >
+          </component>
+        </component>
+        <component type="Container" name="RightDetailsContainer" cloudDestinationProperty="RightDetailsContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+          <component type="SpanLabel" name="Description" cloudDestinationProperty="Description" >
+            <custom name="icon" type="com.codename1.ui.Image" value="content.png" />
+            <custom name="textUiid" type="java.lang.String" value="MyLabel" />
+          </component>
+          <component type="Label" name="VenduLabel" cloudDestinationProperty="Label4" uiid="MyLabel1" text="Label" icon="sold (1).png" >
+          </component>
+          <component type="Label" name="Booste" cloudDestinationProperty="Label5" uiid="MyLabel1" text="Label" icon="favorite (1).png" >
+          </component>
+        </component>
+      </component>
+      <component type="Container" name="ButtonContainer" cloudDestinationProperty="ButtonContainer" layout="BoxLayout" boxLayoutAxis="X" >
+        <component type="Button" name="Vendu" cloudDestinationProperty="Vendu" uiid="BlueButton" text="Vendu" icon="checked.png" >
+        </component>
+        <component type="Button" name="Booster" cloudDestinationProperty="Booster" uiid="RedButton" text="Booster" icon="startup.png" >
+        </component>
+      </component>
+    </component>
+  </component>
+</component>

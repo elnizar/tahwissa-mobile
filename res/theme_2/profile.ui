@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="profile" cloudDestinationProperty="profile" layout="BoxLayout" boxLayoutAxis="Y" title="Profile" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="X" >
+    <component type="AutoCompleteTextField" name="AutoCompleteTextField" cloudBoundProperty="text" cloudDestinationProperty="AutoCompleteTextField" scrollVisible="true" text="" hint="Recherche" >
+    </component>
+    <component type="Button" name="editer" cloudDestinationProperty="editer" uiid="buttonPrimary" text="Editer" >
+    </component>
+  </component>
+  <component type="ImageViewer" name="ImageViewer" cloudDestinationProperty="ImageViewer" >
+  </component>
+  <component type="Label" name="name" cloudDestinationProperty="Label" text="" verticalAlignment="4" textPosition="3" >
+  </component>
+  <component type="Label" name="mail" cloudDestinationProperty="Label1" text="" verticalAlignment="4" >
+  </component>
+  <custom name="titleAreaUIID" type="java.lang.String" value="myToolbar" />
+</component>

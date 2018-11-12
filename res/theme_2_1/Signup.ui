@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Signup" cloudDestinationProperty="Signup" scrollVisible="false" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="TextField" name="nom" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" hint="Nom" >
+  </component>
+  <component type="TextField" name="prenom" cloudBoundProperty="text" cloudDestinationProperty="TextField1" text="" hint="Prenom" >
+  </component>
+  <component type="TextField" name="email" cloudBoundProperty="text" cloudDestinationProperty="TextField2" text="" constraint="1" hint="Email" >
+  </component>
+  <component type="TextField" name="mdp" cloudBoundProperty="text" cloudDestinationProperty="TextField3" text="" constraint="65536" hint="Mot de pass" >
+  </component>
+  <component type="Button" name="sinscrire" cloudDestinationProperty="sinscrire" text="S'inscrire" icon="thumb-up.png" >
+  </component>
+</component>

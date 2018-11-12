@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="planningCell" cloudDestinationProperty="planningCell" uiid="Form" focusable="false" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" uiid="planningRow" tactileTouch="false" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="planningRowFrom" layout="BoxLayout" boxLayoutAxis="X" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="Label" text="xx/xx/xx xx:xx" icon="from.png" >
+      </component>
+      <component type="Label" name="Label1" cloudDestinationProperty="Label" uiid="Label" focusable="false" text="xx/xx/xx xx:xx" icon="to.png" >
+      </component>
+    </component>
+    <component type="SpanLabel" name="SpanLabel" cloudDestinationProperty="SpanLabel" >
+      <custom name="text" type="java.lang.String" value="ets tset e tse tse tse set tse tse ts gfdgfd gfd g fdg sdmfl glmdf lmg lmdfg lmsdf glmsdf lmgdfl mgdf" />
+      <custom name="icon" />
+    </component>
+  </component>
+</component>

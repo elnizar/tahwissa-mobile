@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="inbox" cloudDestinationProperty="inbox" layout="BoxLayout" boxLayoutAxis="Y" title="Tahwissa Inbox" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+    <component type="Button" name="envoyer" cloudDestinationProperty="Button" uiid="buttonPrimary" text="Envoyer un message" >
+      <layoutConstraint value="East" />
+    </component>
+  </component>
+  <custom name="titleAreaUIID" type="java.lang.String" value="myToolbar" />
+</component>

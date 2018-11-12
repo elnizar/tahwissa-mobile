@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 1" cloudDestinationProperty="GUI 1" uiid="bcimage" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="TextField" name="username" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" constraint="0" hint="Email" >
+    </component>
+    <component type="TextField" name="password" cloudBoundProperty="text" cloudDestinationProperty="password" text="" constraint="0" hint="Mot de pass" >
+    </component>
+    <component type="Button" name="connexion" cloudDestinationProperty="Button" text="Connexion" >
+    </component>
+    <component type="Button" name="signup" cloudDestinationProperty="signup" text="S'inscrire" >
+    </component>
+    <component type="Button" name="Facebook" cloudDestinationProperty="Facebook" text="Connexion Faebook" >
+    </component>
+  </component>
+</component>

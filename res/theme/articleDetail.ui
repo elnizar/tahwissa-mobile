@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="articleDetail" cloudDestinationProperty="articleDetail" scrollVisible="false" scrollableY="true" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="ItemDetailContainer" scrollVisible="false" scrollableY="false" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" uiid="WhiteContainer" scrollableY="true" >
+      <component type="ImageViewer" name="imageArticle" cloudDestinationProperty="ImageViewer" scrollVisible="false" >
+        <custom name="image" type="com.codename1.ui.Image" value="veryhigh.png" />
+      </component>
+    </component>
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" scrollableY="false" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Container" name="Container3" cloudDestinationProperty="Container3" uiid="BoutiquePurpleTab" scrollableY="false" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="2" >
+        <component type="Container" name="Container4" cloudDestinationProperty="Container4" scrollableY="false" >
+          <component type="Label" name="Libelle" cloudDestinationProperty="Label" uiid="MyLabel" text="Label" icon="shopping-store.png" >
+          </component>
+        </component>
+        <component type="Container" name="Container5" cloudDestinationProperty="Container5" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="3" flowLayoutValign="0" >
+          <component type="Label" name="Prix" cloudDestinationProperty="Label1" uiid="MyLabel" text="Label" icon="coins (1).png" >
+          </component>
+        </component>
+      </component>
+      <component type="Label" name="Etat" cloudDestinationProperty="Label2" uiid="MyLabel1" text="Label" icon="packing.png" >
+      </component>
+      <component type="SpanLabel" name="Description" cloudDestinationProperty="SpanLabel" >
+        <custom name="text" type="java.lang.String" value="&#xf9;lksndmjnfd" />
+        <custom name="icon" type="com.codename1.ui.Image" value="info.png" />
+        <custom name="textUiid" type="java.lang.String" value="SpanText" />
+      </component>
+      <component type="Button" name="Acheter" cloudDestinationProperty="Acheter" uiid="MyPurpleButton" text="Acheter" icon="shopping-cart (1).png" >
+      </component>
+    </component>
+  </component>
+</component>

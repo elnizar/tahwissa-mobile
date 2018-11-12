@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="newMessage" cloudDestinationProperty="newMessage" layout="BoxLayout" boxLayoutAxis="Y" title="nouveau message ..." >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="taper votre message..." >
+    </component>
+    <component type="TextArea" name="TextArea" cloudBoundProperty="text" cloudDestinationProperty="TextArea" text="" rows="7" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <component type="Button" name="Button" cloudDestinationProperty="Button" uiid="buttonPrimary" text="Envoyer ce message..." >
+    </component>
+  </component>
+  <custom name="titleAreaUIID" type="java.lang.String" value="myToolbar" />
+</component>

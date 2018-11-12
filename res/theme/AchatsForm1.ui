@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="AchatsForm1" cloudDestinationProperty="AchatsForm" uiid="BgAchats" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="0" >
+  <component type="Container" name="AchatContainer" cloudDestinationProperty="AchatContainer" uiid="MyColdGreenTab" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="0" >
+    <component type="Container" name="ItemContainer" cloudDestinationProperty="ItemContainer" layout="BoxLayout" boxLayoutAxis="Y" >
+      <component type="Label" name="Membre" cloudDestinationProperty="Label" uiid="MyLabel1" text="Label" icon="twitter (1).png" >
+      </component>
+      <component type="Label" name="Libelle" cloudDestinationProperty="Label1" uiid="MyLabel1" text="Label" icon="label.png" >
+      </component>
+      <component type="Label" name="Prix" cloudDestinationProperty="Label2" uiid="MyLabel1" text="Label" icon="coins (1).png" >
+      </component>
+      <component type="Label" name="Statut" cloudDestinationProperty="Label3" uiid="MyLabel1" text="Label" icon="packing.png" >
+      </component>
+      <component type="Label" name="DateAchat" cloudDestinationProperty="Label4" uiid="MyLabel1" text="Label" icon="calendar (2).png" >
+      </component>
+      <component type="Container" name="ButtonContainer" cloudDestinationProperty="ButtonContainer" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="0" >
+        <component type="Container" name="RightButtonContainer" cloudDestinationProperty="RightButtonContainer" >
+          <component type="Button" name="Accuser" cloudDestinationProperty="Button" uiid="BlueButton" text="Accuser" icon="checked.png" >
+          </component>
+        </component>
+        <component type="Container" name="LeftButtonContainer" cloudDestinationProperty="LeftButtonContainer" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="3" flowLayoutValign="4" >
+          <component type="Button" name="Reclamer" cloudDestinationProperty="Button1" uiid="RedButton" text="Reclamer" icon="content.png" >
+          </component>
+        </component>
+      </component>
+    </component>
+  </component>
+</component>

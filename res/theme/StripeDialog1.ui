@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Dialog" name="StripeDialog1" cloudDestinationProperty="StripeDialog" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" dialogUIID="PaymentBack" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="ImageViewer" name="ImageViewer" cloudDestinationProperty="ImageViewer" >
+      <custom name="image" type="com.codename1.ui.Image" value="Stripe Log.png" />
+    </component>
+    <component type="TextField" name="CardNumber" cloudBoundProperty="text" cloudDestinationProperty="CardNumber" uiid="Input" text="" hint="Num&#xe9;to de votre carte .." hintIcon="binary-code.png" >
+    </component>
+    <component type="TextField" name="ExpYear" cloudBoundProperty="text" cloudDestinationProperty="ExpYear" uiid="Input" text="" hint="Ann&#xe9;e d'expiration" hintIcon="annual.png" >
+    </component>
+    <component type="TextField" name="ExpMonth" cloudBoundProperty="text" cloudDestinationProperty="ExpMonth" uiid="Input" text="" hint="Mois d'expiration .." hintIcon="weekly-calendar.png" >
+    </component>
+    <component type="Button" name="Valider" cloudDestinationProperty="Valider" uiid="TransparentButtonWhite" text="Valider" icon="credit-card (1).png" gap="10" >
+    </component>
+    <component type="Button" name="Annuler" cloudDestinationProperty="Annuler" uiid="TransparentButtonWhite" text="Annuler" icon="cancel (2).png" gap="10" >
+    </component>
+  </component>
+</component>

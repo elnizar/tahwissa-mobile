@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Dialog" name="PaymentDialog1" cloudDestinationProperty="PaymentDialog" uiid="Form" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" dialogUIID="PaymentBack" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="ImageViewer" name="ImageViewer" cloudDestinationProperty="ImageViewer" >
+      <custom name="image" type="com.codename1.ui.Image" value="credit-card.png" />
+    </component>
+    <component type="Button" name="PayerCompte" cloudDestinationProperty="Button" uiid="TransparentButtonWhite" text="Payer avec TAHWISSA" icon="account.png" gap="20" >
+    </component>
+    <component type="Button" name="PayerStripe" cloudDestinationProperty="Button1" uiid="TransparentButtonWhite" text="Payer par Stripe" icon="credit-card (1).png" gap="20" >
+    </component>
+    <component type="Button" name="Annuler" cloudDestinationProperty="Button2" uiid="TransparentButtonWhite" text="Annuler" icon="cancel (2).png" gap="20" >
+    </component>
+  </component>
+  <custom name="titleUIID" type="java.lang.String" value="MyLabel" />
+  <custom name="titleAreaUIID" type="java.lang.String" value="MyLabel" />
+</component>

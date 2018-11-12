@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Dialog" name="PasscodeDialog" cloudDestinationProperty="PasscodeDialog" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" dialogUIID="PaymentBack" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="ImageViewer" name="ImageViewer" cloudDestinationProperty="ImageViewer" >
+      <custom name="image" type="com.codename1.ui.Image" value="login.png" />
+    </component>
+    <component type="TextField" name="Passcode" cloudBoundProperty="text" cloudDestinationProperty="TextField" uiid="Input" text="" hint="Votre mot de passe de compte .." hintIcon="account.png" >
+    </component>
+    <component type="TextField" name="RePasscode" cloudBoundProperty="text" cloudDestinationProperty="TextField1" uiid="Input" text="" hint="Retapez votre mot de passe .." hintIcon="account.png" >
+    </component>
+    <component type="Button" name="Poursuivre" cloudDestinationProperty="Button" uiid="TransparentButtonWhite" text="Poursuivre" icon="credit-card (1).png" gap="10" >
+    </component>
+    <component type="Button" name="Annuler" cloudDestinationProperty="Button1" uiid="TransparentButtonWhite" text="Annuler" icon="cancel (2).png" gap="10" >
+    </component>
+    <component type="Label" name="Message" cloudDestinationProperty="Label" uiid="ErrorMessage" text="Label" >
+    </component>
+  </component>
+</component>

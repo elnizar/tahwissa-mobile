@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Signalisation" cloudDestinationProperty="Signalisation" layout="BoxLayout" boxLayoutAxis="Y" title="Signalisation d'un membre" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+    <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="taper le motif" >
+    </component>
+    <component type="TextField" name="TextField" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="TextField" >
+    </component>
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="faire une description" >
+    </component>
+    <component type="TextArea" name="TextArea" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextField" text="TextArea" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+    <component type="Button" name="signaler" cloudDestinationProperty="Button" uiid="buttonPrimary" text="Signaler ce membre" >
+    </component>
+  </component>
+  <custom name="titleAreaUIID" type="java.lang.String" value="myToolbar" />
+</component>

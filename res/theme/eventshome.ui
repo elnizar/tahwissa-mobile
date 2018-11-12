@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="eventshome" cloudDestinationProperty="organiser" scrollVisible="true" scrollableX="false" scrollableY="true" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="1" flowLayoutValign="0" title="Evenements" >
+  <component type="Container" name="distanceContainer" cloudDestinationProperty="distanceContainer" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+    <component type="Container" name="Container" cloudDestinationProperty="Container" layout="BoxLayout" boxLayoutAxis="Y" >
+      <layoutConstraint value="West" />
+      <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BoxLayout" boxLayoutAxis="X" >
+        <component type="Label" name="Label" cloudDestinationProperty="Label" text="Distance maximale" >
+        </component>
+        <component type="Label" name="value" cloudDestinationProperty="value" text="" >
+        </component>
+      </component>
+      <component type="Slider" name="distance" cloudDestinationProperty="distance" text="" editable="true" maxValue="1000" >
+      </component>
+    </component>
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" >
+      <layoutConstraint value="East" />
+      <component type="Button" name="destinationButton" cloudDestinationProperty="destinationButton" uiid="buttonPrimary" text="Go !" >
+      </component>
+    </component>
+  </component>
+  <custom name="titleAreaUIID" type="java.lang.String" value="myToolbar" />
+</component>
